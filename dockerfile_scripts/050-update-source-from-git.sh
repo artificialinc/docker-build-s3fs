@@ -36,7 +36,7 @@ set -ex
     curl \
       --silent \
       --location \
-           https://github.com/s3fs-fuse/s3fs-fuse/tarball/$COMMIT_ID \
+           https://github.com/artificialinc/s3fs-fuse/tarball/$COMMIT_ID \
       --output \
            $PACKAGE_GZ
 
